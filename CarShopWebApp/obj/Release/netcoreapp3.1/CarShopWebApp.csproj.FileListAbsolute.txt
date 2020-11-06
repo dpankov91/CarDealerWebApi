@@ -1,0 +1,6 @@
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.csprojAssemblyReference.cache
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.AssemblyInfoInputs.cache
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.AssemblyInfo.cs
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.csproj.CoreCompileInputs.cache
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dpank\Documents\C.NET\CarShopApp\CarShopWebApp\obj\Release\netcoreapp3.1\CarShopWebApp.MvcApplicationPartsAssemblyInfo.cache

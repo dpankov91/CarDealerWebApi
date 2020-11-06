@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShopWebApp\\CarShopWebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj",
+        "projectName": "CarShop.Core.Entity",
+        "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj",
+        "packagesPath": "C:\\Users\\dpank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj",
+        "projectName": "CarShop.Core",
+        "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj",
+        "packagesPath": "C:\\Users\\dpank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\CarShop.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\CarShop.Infrastructure.Data.csproj",
+        "projectName": "CarShop.Infrastructure.Data",
+        "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\CarShop.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\dpank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj"
+              },
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShopWebApp\\CarShopWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShopWebApp\\CarShopWebApp.csproj",
+        "projectName": "CarShopWebApp",
+        "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShopWebApp\\CarShopWebApp.csproj",
+        "packagesPath": "C:\\Users\\dpank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShopWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core.Entity\\CarShop.Core.Entity.csproj"
+              },
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Core\\CarShop.Core.csproj"
+              },
+              "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\CarShop.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\dpank\\Documents\\C.NET\\CarShopApp\\CarShop.Infrastructure.Data\\CarShop.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

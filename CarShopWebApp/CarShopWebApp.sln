@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShopWebApp", "CarShopWebApp.csproj", "{56840BD5-992B-400C-AF3F-D755FE705301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{569FFFFC-BD65-4A40-8F13-FCFCE309E658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3C4ADC47-6FEF-4674-93F7-A9C1370FA010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3A93D448-FE5B-4DDA-829A-A2330D819EF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Core", "..\CarShop.Core\CarShop.Core.csproj", "{2B54BDBF-052C-4059-A9E5-3DF5A164D43E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Core.Entity", "..\CarShop.Core.Entity\CarShop.Core.Entity.csproj", "{FC7E8186-FE8A-41D7-95FB-C9E270071A36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Infrastructure.Data", "..\CarShop.Infrastructure.Data\CarShop.Infrastructure.Data.csproj", "{3F9C3C45-8D01-46B6-BA14-899A4E4A215C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4BF74E2A-B916-4062-90BB-BDD2BA7D8C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestCore", "..\XUnitTestCore\XUnitTestCore.csproj", "{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56840BD5-992B-400C-AF3F-D755FE705301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56840BD5-992B-400C-AF3F-D755FE705301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56840BD5-992B-400C-AF3F-D755FE705301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56840BD5-992B-400C-AF3F-D755FE705301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B54BDBF-052C-4059-A9E5-3DF5A164D43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B54BDBF-052C-4059-A9E5-3DF5A164D43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B54BDBF-052C-4059-A9E5-3DF5A164D43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B54BDBF-052C-4059-A9E5-3DF5A164D43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7E8186-FE8A-41D7-95FB-C9E270071A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7E8186-FE8A-41D7-95FB-C9E270071A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7E8186-FE8A-41D7-95FB-C9E270071A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7E8186-FE8A-41D7-95FB-C9E270071A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9C3C45-8D01-46B6-BA14-899A4E4A215C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9C3C45-8D01-46B6-BA14-899A4E4A215C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9C3C45-8D01-46B6-BA14-899A4E4A215C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9C3C45-8D01-46B6-BA14-899A4E4A215C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56840BD5-992B-400C-AF3F-D755FE705301} = {3A93D448-FE5B-4DDA-829A-A2330D819EF2}
+		{2B54BDBF-052C-4059-A9E5-3DF5A164D43E} = {569FFFFC-BD65-4A40-8F13-FCFCE309E658}
+		{FC7E8186-FE8A-41D7-95FB-C9E270071A36} = {569FFFFC-BD65-4A40-8F13-FCFCE309E658}
+		{3F9C3C45-8D01-46B6-BA14-899A4E4A215C} = {3C4ADC47-6FEF-4674-93F7-A9C1370FA010}
+		{A57A7992-4726-4C08-BF3B-F8BA9F21CDBD} = {4BF74E2A-B916-4062-90BB-BDD2BA7D8C1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81C5DD0-A0DF-4EA6-AACD-7ABE3AEAB64E}
+	EndGlobalSection
+EndGlobal
