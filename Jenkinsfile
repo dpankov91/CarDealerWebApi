@@ -6,12 +6,12 @@ pipeline{
 stages {
 	stage("Build") {
 	  steps {
-	    sh "dotnet build BookStore-BackEnd/BookStore-BackEnd.csproj"
+	    sh "dotnet build CarDealerWebApi/CarShopWebApp.csproj"
 		}
 }
 	stage("Test") {
 	  steps {
-	    sh "dotnet build BookStore-BackEnd/BookStore-BackEnd.csproj"
+	    sh "dotnet build CarDealerWebApi/CarShopWebApp.csproj"
 		}
 	}
 }
