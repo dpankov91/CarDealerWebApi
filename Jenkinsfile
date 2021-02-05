@@ -8,12 +8,12 @@ stages {
 	  steps {
 	    sh "dotnet build BookStore-BackEnd/BookStore-BackEnd.csproj"
 		}
+}
 	stage("Test") {
 	  steps {
 	    sh "dotnet build BookStore-BackEnd/BookStore-BackEnd.csproj"
 		}
 	}
-}
 }
 }
 	
